@@ -16,19 +16,18 @@ def convert_10_to_26(x):
 
 	ret = []
 	q = x
-	end_flag = False
 
 	if 26 > x:
 		return num_2_alpha(x)
 
-	while not end_flag:
+	while True:
 		tmp = q / 26
 		r = q % 26
 		q = tmp
 		ret.append(num_2_alpha(r))
 		if 26 > q:
-			end_flag = True
 			ret.append(num_2_alpha(q))
+			break
 
 	ret.reverse()
 	ret = "".join(ret)
