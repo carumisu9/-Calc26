@@ -23,4 +23,6 @@ if __name__ == '__main__':
 	b = s[2]
 
 	ans = calc(a,c,b)
-	print "Answer: "+ans
+
+	print("Answer_26: " + ans)
+	print("Answer_10: " + str(convert_26_to_10(ans)))
