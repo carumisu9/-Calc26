@@ -1,5 +1,5 @@
 # calc26
-
+q
 0~25 = A-Z
 
 ## Usage
